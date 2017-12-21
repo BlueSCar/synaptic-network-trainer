@@ -1,0 +1,22 @@
+{
+  "name": "synaptic-network-trainer",
+  "version": "1.0.0",
+  "description": "A utility for creating and training neural networks using the SynapticJS library",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./ --cache --ignore-pattern .gitignore"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "author": "BlueSCar",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "synaptic": "^1.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlueSCar/synaptic-network-trainer.git"
+  }
+}
